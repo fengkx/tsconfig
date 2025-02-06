@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedSideEffectImports": true,
+    "noEmitOnError": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "noErrorTruncation": true,
+    "isolatedDeclarations": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "useUnknownInCatchVariables": true,
+    "baseUrl": ".", // 不要以 / 结尾
+    "emitBOM": false,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "sourceMap": true,
+    "strict": true,
+    "stripInternal": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2022", "ES2022.Error"],
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "skipLibCheck": true,
+    "newLine": "lf",
+    "useDefineForClassFields": true,
+    "target": "ES2022", // Node 18
+    "outDir": "${configDir}/dist",
+    "resolveJsonModule": false
+  }
+}
