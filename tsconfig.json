@@ -22,7 +22,6 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "useUnknownInCatchVariables": null,
-    "baseUrl": ".", // 不要以 / 结尾
     "emitBOM": false,
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
